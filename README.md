@@ -23,5 +23,7 @@ Testing: Jest
 Frontend (cd frontend...npm install)
 Proxy Server (cd ../proxy-server..npm install)
 6. Add your OpenWeather API key to the .env file in the proxy-server directory (OPENWEATHER_API_KEY=your_api_key_here)
-7. Start the development servers (npm start)
-8. Open the application in your browser
+7. Start the development servers
+   Frontend (npm start)
+   Proxy (node server.js)
+9. Open the application in your browser
