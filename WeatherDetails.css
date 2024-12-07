@@ -1,0 +1,57 @@
+/* Center the weather details on the page */
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5af19, #f12711);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Add a stylish header */
+.weather-header {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Weather information styling */
+.weather-info {
+  width: 80%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.weather-highlight {
+  font-weight: bold;
+}
+
+/* Back button styling */
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #f12711;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #f5af19;
+  color: white;
+}
